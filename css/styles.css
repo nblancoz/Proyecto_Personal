@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: black;
+    min-height: 100vh;
+}
+header {
+    text-align: center;
+    color: white;
+}
+.container {
+    display: flex;
+    background-color:#F8F8F8;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 1%;
+    padding: 20px;
+    height: 90%;
+}
+#intro {
+    text-align: justify;
+}
+#pages {
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+    text-align: right;
+    color: white;
+}
+main {
+    flex-grow: 1;
+}
+article {
+    text-align: justify;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: blue;
+    font-size: 1.1rem;
+}
+#home {
+    margin: 10px;
+    padding: 30px;
+}
+#bio {
+    margin: 10px;
+    padding: 30px;
+}
+#port {
+    margin: 10px;
+    padding: 30px;
+}
+#contact {
+    margin: 10px;
+    padding: 30px;
+}
+hr {
+    height: .5px;
+    width: 100%;
+    background-color: #055000;
+}
+#program {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    align-self: center;
+}
+#logos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+    height: 30%;
+}
+#fut {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+}
+#fam {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+}
+#containerbio {
+    display: flex;
+    flex-direction: column;
+}
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+}
